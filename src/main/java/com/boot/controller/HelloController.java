@@ -23,8 +23,9 @@ public class HelloController {
         return person.getName()+"  "+person.getAge();
     }
 
+    @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String test(){
 
-        return null;
+        return "just a test";
     }
 }
