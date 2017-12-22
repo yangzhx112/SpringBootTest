@@ -22,4 +22,9 @@ public class HelloController {
     public String info(){
         return person.getName()+"  "+person.getAge();
     }
+
+    public String test(){
+
+
+    }
 }
